@@ -13,5 +13,8 @@ struct Test15App: App {
         WindowGroup {
             ContentView()
         }
+        /// モデルコンテナをウィンドウグループにアタッチします。
+        .modelContainer(for: Person.self, isUndoEnabled: true)
+        /// このビデオでは、モデルを作成するだけですが、アンドゥマネージャーなどのプロパティを追加することもできます。
     }
 }

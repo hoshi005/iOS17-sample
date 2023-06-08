@@ -7,15 +7,30 @@
 
 import SwiftUI
 
+enum Views: String, CaseIterable {
+    case swiftData = "Swift Data"
+    case scrollNewAPI = "ScrollView New API"
+}
+
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(Views.allCases, id: \.self) {
+                    NavigationLink($0.rawValue, value: $0)
+                }
+            }
+            .navigationDestination(for: Views.self) {
+                switch $0 {
+                case .swiftData:
+                    SwiftDataSample()
+                case .scrollNewAPI:
+                    ScrollNewAPI()
+                }
+            }
+            .navigationTitle("iOS17 Sample")
         }
-        .padding()
     }
 }
 
