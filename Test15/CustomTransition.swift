@@ -21,7 +21,7 @@ struct CustomTransitionView: View {
             }
             
             Button("Show View") {
-                withAnimation(.bouncy) {
+                withAnimation(.init(MyAnimation())) {
                     showView.toggle()
                 }
             }
@@ -42,6 +42,20 @@ struct MyTransition: Transition {
                 .init(degrees: phase.value * (phase == .willAppear ? 90 : -90)),
                 axis: (x: 1.0, y: 0.0, z: 0.0)
             )
+    }
+}
+
+/// Custom Animation.
+struct MyAnimation: CustomAnimation {
+    
+    let duration: CGFloat = 1
+    
+    func animate<V>(value: V, time: TimeInterval, context: inout AnimationContext<V>) -> V? where V : VectorArithmetic {
+        
+        // 終了期限を設定しないと、無限にアニメーションし続ける.
+        if time > duration { return nil }
+        
+        return value.scaled(by: time)
     }
 }
 
