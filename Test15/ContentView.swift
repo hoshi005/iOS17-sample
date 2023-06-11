@@ -10,6 +10,7 @@ import SwiftUI
 enum Views: String, CaseIterable {
     case swiftData = "Swift Data"
     case scrollNewAPI = "ScrollView New API"
+    case scrollTransition = "Scroll Transition"
 }
 
 struct ContentView: View {
@@ -27,6 +28,8 @@ struct ContentView: View {
                     SwiftDataSample()
                 case .scrollNewAPI:
                     ScrollNewAPI()
+                case .scrollTransition:
+                    ScrollTransition()
                 }
             }
             .navigationTitle("iOS17 Sample")

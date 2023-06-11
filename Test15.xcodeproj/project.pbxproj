@@ -13,6 +13,7 @@
 		EFB3C7812A30A08000C250D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3C7802A30A08000C250D2 /* Preview Assets.xcassets */; };
 		EFB3C7882A31465C00C250D2 /* SwiftDataSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7872A31465C00C250D2 /* SwiftDataSample.swift */; };
 		EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */; };
+		EFB3C78C2A356CE400C250D2 /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EFB3C7802A30A08000C250D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFB3C7872A31465C00C250D2 /* SwiftDataSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataSample.swift; sourceTree = "<group>"; };
 		EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNewAPI.swift; sourceTree = "<group>"; };
+		EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EFB3C77B2A30A08000C250D2 /* ContentView.swift */,
 				EFB3C7872A31465C00C250D2 /* SwiftDataSample.swift */,
 				EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */,
+				EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */,
 				EFB3C77C2A30A08000C250D2 /* ContentView.swift in Sources */,
+				EFB3C78C2A356CE400C250D2 /* ScrollTransition.swift in Sources */,
 				EFB3C7882A31465C00C250D2 /* SwiftDataSample.swift in Sources */,
 				EFB3C77A2A30A08000C250D2 /* Test15App.swift in Sources */,
 			);
