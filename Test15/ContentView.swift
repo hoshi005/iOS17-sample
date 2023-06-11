@@ -11,6 +11,7 @@ enum Views: String, CaseIterable {
     case swiftData = "Swift Data"
     case scrollNewAPI = "ScrollView New API"
     case scrollTransition = "Scroll Transition"
+    case customTransition = "Custom Transition"
 }
 
 struct ContentView: View {
@@ -30,6 +31,8 @@ struct ContentView: View {
                     ScrollNewAPI()
                 case .scrollTransition:
                     ScrollTransition()
+                case .customTransition:
+                    CustomTransitionView()
                 }
             }
             .navigationTitle("iOS17 Sample")
