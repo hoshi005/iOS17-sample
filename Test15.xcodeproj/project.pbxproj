@@ -15,6 +15,7 @@
 		EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */; };
 		EFB3C78C2A356CE400C250D2 /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */; };
 		EFB3C78E2A35731100C250D2 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C78D2A35731100C250D2 /* CustomTransition.swift */; };
+		EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNewAPI.swift; sourceTree = "<group>"; };
 		EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 		EFB3C78D2A35731100C250D2 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompleCallback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EFB3C7892A314A9500C250D2 /* ScrollNewAPI.swift */,
 				EFB3C78B2A356CE400C250D2 /* ScrollTransition.swift */,
 				EFB3C78D2A35731100C250D2 /* CustomTransition.swift */,
+				EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */,
+				EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */,
 				EFB3C78E2A35731100C250D2 /* CustomTransition.swift in Sources */,
 				EFB3C77C2A30A08000C250D2 /* ContentView.swift in Sources */,
 				EFB3C78C2A356CE400C250D2 /* ScrollTransition.swift in Sources */,

@@ -12,6 +12,7 @@ enum Views: String, CaseIterable {
     case scrollNewAPI = "ScrollView New API"
     case scrollTransition = "Scroll Transition"
     case customTransition = "Custom Transition"
+    case animationCompletCallback = "Animation Completion Callback"
 }
 
 struct ContentView: View {
@@ -33,6 +34,8 @@ struct ContentView: View {
                     ScrollTransition()
                 case .customTransition:
                     CustomTransitionView()
+                case .animationCompletCallback:
+                    AnimationCompleCallback()
                 }
             }
             .navigationTitle("iOS17 Sample")
