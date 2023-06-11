@@ -28,8 +28,6 @@ struct AnimationCompleCallback: View {
                 }
             }
             
-            
-            
             Button("Show View removed") {
                 // removed:
                 // アニメーションが連続する場合も、最後の最後まで終わった後に反応する
