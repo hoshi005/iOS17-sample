@@ -16,6 +16,7 @@ enum Views: String, CaseIterable {
     case onChangeModifier = "onChange Modifier"
     case stateObservable = "State / Observable/ Bindng"
     case unevenRoundedRectangle = "Uneven Rounded Rectangle"
+    case hapticFeedback = "Haptic Feedback"
 }
 
 struct ContentView: View {
@@ -45,6 +46,8 @@ struct ContentView: View {
                     StateObservable()
                 case .unevenRoundedRectangle:
                     UnevenRounded()
+                case .hapticFeedback:
+                    HapticFeedbackView()
                 }
             }
             .navigationTitle("iOS17 Sample")

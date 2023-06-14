@@ -57,3 +57,7 @@
 ## UnevenRoundedRectangle
 
 - 四隅バラバラに定義できるRoundedRectangle
+
+## Haptic Feecback
+
+- haptic feedback を鳴らす
