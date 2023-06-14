@@ -20,6 +20,7 @@
 		EFB3C7942A39364F00C250D2 /* StateObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7932A39364F00C250D2 /* StateObservable.swift */; };
 		EFB3C7962A39D82400C250D2 /* UnevenRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */; };
 		EFB3C7982A39DA3000C250D2 /* HapticFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */; };
+		EFB3C79A2A39DDBB00C250D2 /* NewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		EFB3C7932A39364F00C250D2 /* StateObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObservable.swift; sourceTree = "<group>"; };
 		EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnevenRounded.swift; sourceTree = "<group>"; };
 		EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackView.swift; sourceTree = "<group>"; };
+		EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVisualEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EFB3C7932A39364F00C250D2 /* StateObservable.swift */,
 				EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */,
 				EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */,
+				EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -171,6 +174,7 @@
 				EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */,
 				EFB3C78E2A35731100C250D2 /* CustomTransition.swift in Sources */,
 				EFB3C7922A36930F00C250D2 /* OnChangeModifier.swift in Sources */,
+				EFB3C79A2A39DDBB00C250D2 /* NewVisualEffect.swift in Sources */,
 				EFB3C77C2A30A08000C250D2 /* ContentView.swift in Sources */,
 				EFB3C78C2A356CE400C250D2 /* ScrollTransition.swift in Sources */,
 				EFB3C7882A31465C00C250D2 /* SwiftDataSample.swift in Sources */,

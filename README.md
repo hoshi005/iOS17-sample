@@ -61,3 +61,6 @@
 ## Haptic Feecback
 
 - haptic feedback を鳴らす
+
+## Visual Effect
+
