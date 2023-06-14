@@ -53,3 +53,7 @@
 - View側は、@ObservedObject は不要になった
 - Viewが参照しているプロパティが更新されたらViewが再評価される
 - Viewが参照していないプロパティが更新されても、Viewは再評価されない
+
+## UnevenRoundedRectangle
+
+- 四隅バラバラに定義できるRoundedRectangle

@@ -18,6 +18,7 @@
 		EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */; };
 		EFB3C7922A36930F00C250D2 /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7912A36930F00C250D2 /* OnChangeModifier.swift */; };
 		EFB3C7942A39364F00C250D2 /* StateObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7932A39364F00C250D2 /* StateObservable.swift */; };
+		EFB3C7962A39D82400C250D2 /* UnevenRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompleCallback.swift; sourceTree = "<group>"; };
 		EFB3C7912A36930F00C250D2 /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
 		EFB3C7932A39364F00C250D2 /* StateObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObservable.swift; sourceTree = "<group>"; };
+		EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnevenRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				EFB3C78F2A368B6800C250D2 /* AnimationCompleCallback.swift */,
 				EFB3C7912A36930F00C250D2 /* OnChangeModifier.swift */,
 				EFB3C7932A39364F00C250D2 /* StateObservable.swift */,
+				EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB3C7962A39D82400C250D2 /* UnevenRounded.swift in Sources */,
 				EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */,
 				EFB3C7942A39364F00C250D2 /* StateObservable.swift in Sources */,
 				EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */,
