@@ -22,6 +22,7 @@
 		EFB3C7982A39DA3000C250D2 /* HapticFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */; };
 		EFB3C79A2A39DDBB00C250D2 /* NewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */; };
 		EFEA42702A39E00F00FBDC35 /* AnimateSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */; };
+		EFEA42722A39E3CD00FBDC35 /* PhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackView.swift; sourceTree = "<group>"; };
 		EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVisualEffect.swift; sourceTree = "<group>"; };
 		EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbol.swift; sourceTree = "<group>"; };
+		EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */,
 				EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */,
 				EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */,
+				EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -183,6 +186,7 @@
 				EFB3C7882A31465C00C250D2 /* SwiftDataSample.swift in Sources */,
 				EFB3C77A2A30A08000C250D2 /* Test15App.swift in Sources */,
 				EFEA42702A39E00F00FBDC35 /* AnimateSymbol.swift in Sources */,
+				EFEA42722A39E3CD00FBDC35 /* PhaseAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

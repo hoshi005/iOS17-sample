@@ -19,6 +19,7 @@ enum Views: String, CaseIterable {
     case hapticFeedback = "Haptic Feedback"
     case newVisualEffect = "New Visual Effect"
     case animateSymbol = "Animate Symbol"
+    case phaseAnimation = "Phase Animation"
 }
 
 struct ContentView: View {
@@ -54,6 +55,8 @@ struct ContentView: View {
                     NewVisualEffect()
                 case .animateSymbol:
                     AnimateSymbol()
+                case .phaseAnimation:
+                    PhaseAnimationView()
                 }
             }
             .navigationTitle("iOS17 Sample")
