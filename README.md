@@ -43,3 +43,13 @@
 - `@Observable`を宣言するだけで、Observableオブジェクトになる
 - 各変数に`@Published`を宣言したのと同じになる
 - View側では、`@ObservedObject`ではなく`@Bindable`をつければ良い
+
+--- 
+
+- @Stateと@Environment だけになった
+- モデルクラスにObservableObject, @Published をつけていたが、@Observableマロだけで良くなった
+- プロパティは自動的に @Published になる
+
+- View側は、@ObservedObject は不要になった
+- Viewが参照しているプロパティが更新されたらViewが再評価される
+- Viewが参照していないプロパティが更新されても、Viewは再評価されない
