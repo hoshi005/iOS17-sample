@@ -35,3 +35,11 @@
 
 - modifier`onChange`が、初期表示時にも呼び出させるようになった
 - 選択可能
+
+## @Observable と @Bindable
+
+- 以前は、Observableオブジェクトを作るためには`ObservableObject`をimplementする必要があり、変数には`@Published`を宣言する必要があった
+- マクロのおかげで簡単になった
+- `@Observable`を宣言するだけで、Observableオブジェクトになる
+- 各変数に`@Published`を宣言したのと同じになる
+- View側では、`@ObservedObject`ではなく`@Bindable`をつければ良い
