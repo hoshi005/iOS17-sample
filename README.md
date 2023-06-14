@@ -64,3 +64,6 @@
 
 ## Visual Effect
 
+## symbol image animation
+
+- シンボルイメージに対してアニメーションを設定する

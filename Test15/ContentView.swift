@@ -18,6 +18,7 @@ enum Views: String, CaseIterable {
     case unevenRoundedRectangle = "Uneven Rounded Rectangle"
     case hapticFeedback = "Haptic Feedback"
     case newVisualEffect = "New Visual Effect"
+    case animateSymbol = "Animate Symbol"
 }
 
 struct ContentView: View {
@@ -51,6 +52,8 @@ struct ContentView: View {
                     HapticFeedbackView()
                 case .newVisualEffect:
                     NewVisualEffect()
+                case .animateSymbol:
+                    AnimateSymbol()
                 }
             }
             .navigationTitle("iOS17 Sample")
