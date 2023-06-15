@@ -23,6 +23,7 @@
 		EFB3C79A2A39DDBB00C250D2 /* NewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */; };
 		EFEA42702A39E00F00FBDC35 /* AnimateSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */; };
 		EFEA42722A39E3CD00FBDC35 /* PhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */; };
+		EFEA42742A3A879100FBDC35 /* KeyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVisualEffect.swift; sourceTree = "<group>"; };
 		EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbol.swift; sourceTree = "<group>"; };
 		EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimationView.swift; sourceTree = "<group>"; };
+		EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */,
 				EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */,
 				EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */,
+				EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -187,6 +190,7 @@
 				EFB3C77A2A30A08000C250D2 /* Test15App.swift in Sources */,
 				EFEA42702A39E00F00FBDC35 /* AnimateSymbol.swift in Sources */,
 				EFEA42722A39E3CD00FBDC35 /* PhaseAnimationView.swift in Sources */,
+				EFEA42742A3A879100FBDC35 /* KeyFrameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
