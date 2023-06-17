@@ -21,6 +21,7 @@ enum Views: String, CaseIterable {
     case animateSymbol = "Animate Symbol"
     case phaseAnimation = "Phase Animation"
     case keyFrame = "Key Frame Animation"
+    case listPage = "SwiftData List Page"
 }
 
 struct ContentView: View {
@@ -60,6 +61,8 @@ struct ContentView: View {
                     PhaseAnimationView()
                 case .keyFrame:
                     KeyFrameView()
+                case .listPage:
+                    ListPage()
                 }
             }
             .navigationTitle("iOS17 Sample")

@@ -21,6 +21,7 @@
 		EFB3C7962A39D82400C250D2 /* UnevenRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */; };
 		EFB3C7982A39DA3000C250D2 /* HapticFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */; };
 		EFB3C79A2A39DDBB00C250D2 /* NewVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */; };
+		EFE320142A3D367C000CFC7F /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE320132A3D367C000CFC7F /* ListPage.swift */; };
 		EFEA42702A39E00F00FBDC35 /* AnimateSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */; };
 		EFEA42722A39E3CD00FBDC35 /* PhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */; };
 		EFEA42742A3A879100FBDC35 /* KeyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */; };
@@ -42,6 +43,7 @@
 		EFB3C7952A39D82400C250D2 /* UnevenRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnevenRounded.swift; sourceTree = "<group>"; };
 		EFB3C7972A39DA3000C250D2 /* HapticFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackView.swift; sourceTree = "<group>"; };
 		EFB3C7992A39DDBB00C250D2 /* NewVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVisualEffect.swift; sourceTree = "<group>"; };
+		EFE320132A3D367C000CFC7F /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
 		EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbol.swift; sourceTree = "<group>"; };
 		EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimationView.swift; sourceTree = "<group>"; };
 		EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				EFEA426F2A39E00F00FBDC35 /* AnimateSymbol.swift */,
 				EFEA42712A39E3CD00FBDC35 /* PhaseAnimationView.swift */,
 				EFEA42732A3A879100FBDC35 /* KeyFrameView.swift */,
+				EFE320122A3D366F000CFC7F /* SwiftData */,
 				EFB3C77D2A30A08000C250D2 /* Assets.xcassets */,
 				EFB3C77F2A30A08000C250D2 /* Preview Content */,
 			);
@@ -104,6 +107,14 @@
 				EFB3C7802A30A08000C250D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFE320122A3D366F000CFC7F /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EFE320132A3D367C000CFC7F /* ListPage.swift */,
+			);
+			path = SwiftData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			files = (
 				EFB3C7962A39D82400C250D2 /* UnevenRounded.swift in Sources */,
 				EFB3C7982A39DA3000C250D2 /* HapticFeedbackView.swift in Sources */,
+				EFE320142A3D367C000CFC7F /* ListPage.swift in Sources */,
 				EFB3C78A2A314A9500C250D2 /* ScrollNewAPI.swift in Sources */,
 				EFB3C7942A39364F00C250D2 /* StateObservable.swift in Sources */,
 				EFB3C7902A368B6800C250D2 /* AnimationCompleCallback.swift in Sources */,
